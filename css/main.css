@@ -86,8 +86,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  
+/*   ----------------  General Styles ------------ */   
+
+/* General Styles */
+ 
+html {
+	font-size: 1rem;
+}
+ 
+body {
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+ 
+}
+ 
+ul, 
+ol {
+  list-style: none;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.12em;
+}
+ 
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+ 
+address {
+  font-style: normal;
+}
+ 
 .content-wrapper {
-  outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
 }
@@ -105,9 +153,6 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-}
-
-header figure {
 }
 
 .header-divider {
@@ -222,6 +267,7 @@ aside {
   justify-content: center;
 }
 
+/*
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -237,16 +283,20 @@ aside {
   width: 80%;
 }
 
+*/
+
 .contact-section {
   display: flex;
   justify-content: center;
 }
 
+/*
 .contact-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+*/
 
 .contact-content p {
   margin: 0;
@@ -269,12 +319,12 @@ aside {
 }
 
 .faq h2 {
-  width: 100%;;
+/*  width: 100%; */
   margin-bottom: 40px;
 }  
 
 .faq-content {
-  flex-basis: 45%;
+/*  flex-basis: 45%; */
   margin-bottom: 50px;
 }
   
@@ -423,7 +473,7 @@ aside {
     }
 
     .features .features-item-description {
-      width: 50;
+      width: 50%;
     }
 
     /*    Reviews    */
@@ -462,16 +512,15 @@ aside {
 .mission-content {
   display: flex;
   justify-content: space-between;
-  align-items:  
+  align-items:  flex-start;
 }
 
 .mission-content p {
-  width: 
-
+  width: 100%;
 }
 
 .contact-section .content-wrapper h2 {
-  width: 
+  width: 80%;
 }
 
 .contact-content {
@@ -622,5 +671,4 @@ aside .content-wrapper .form {
   h3 {
     page-break-after: avoid;
   }
-}
-
+}  
